@@ -1,10 +1,10 @@
-import React from "react";
-import Date from "./../Date"
+import React from 'react';
+import Date from './../Date';
 
 function Week() {
   return (
     <tr>
-      <Date date={1} className={'day'}/>
+      <Date date={1} />
       <Date date={2} />
       <Date date={3} />
       <Date date={4} />

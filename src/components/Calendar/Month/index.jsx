@@ -1,12 +1,14 @@
-import React from "react";
-import Week from "./../Week";
-
+import React from 'react';
+import Week from './../Week';
+import style from './../Calendar.module.scss';
 
 function Month(props) {
+  var result = getMonth(new Date(2012, 1, 29));
   return (
     <table>
       <thead>
-        <caption>JULE 2020</caption>
+        <h1>result</h1>
+        <caption className={style.dhead}>JULE 2020</caption>
         <tr>
           <th>S</th>
           <th>M</th>
